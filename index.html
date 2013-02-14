@@ -2,3 +2,14 @@
 ---
 <h1>{{ site.orgname }} Bylaws</h1>
 Content will go here.
+{% for category in site.categories %}
+  <section>
+    <h2>{{ category }}</h2>
+    {% for post in category.posts %}
+      <article>
+        <h3>{{ post.title }}</h3>
+        {{ post.content }}
+      </article>
+    {% endfor %}
+  </section>
+{% endfor %}
