@@ -3,5 +3,7 @@ markdown: rdiscount
 permalink: /:categories/:day/:title/
 pygments: true
 orgname: Canton Historical Society
+draft: true
+unofficial: true
 rdiscount
   extensions: [smart]
