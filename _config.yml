@@ -2,7 +2,6 @@ auto: true
 markdown: rdiscount
 permalink: /:categories/:title/
 pygments: true
+orgname: Canton Historical Society
 rdiscount
   extensions: [smart]
-
-orgname: "Canton Historical Society"
