@@ -1,6 +1,8 @@
 auto: true
 markdown: rdiscount
-permalink: /:section/:title/
+permalink: /:categories/:title/
 pygments: true
 rdiscount
   extensions: [smart]
+
+orgname: "Canton Historical Society"
