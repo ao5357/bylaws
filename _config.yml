@@ -1,0 +1,6 @@
+auto: true
+markdown: rdiscount
+permalink: /:section/:title/
+pygments: true
+rdiscount
+  extensions: [smart]
