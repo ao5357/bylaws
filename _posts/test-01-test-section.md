@@ -1,7 +1,7 @@
 ---
 type: post
 title: Test Section
-categories: Test
+category: Test
 layout: post
 ---
 
